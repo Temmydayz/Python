@@ -1,0 +1,7 @@
+age = input("what is your age?\n")
+days = 365
+weeks = 52
+months = 12
+# convert the age data type from string to int)
+years =90 - int(age)
+print(f"You have {years * days} days, {years * weeks} weeks, and {years * months} months left.")
